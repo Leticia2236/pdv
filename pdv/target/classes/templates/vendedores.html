@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"xmlns:th="http://www.thymeleaf.otg">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojas Show</title>
+</head>
+<body>
+	 <table class="table table-sm table-striped table-hover table-bordered">
+		    <thead>
+				<tr>
+					<th>ID</th>
+					</th>Nome do vendedor</th>
+			</tr>
+              </thead>
+              <tbody>
+				 	<tr th:each "vendedor :${vendedores}"></td>
+					 <td th:text="${vendedor.id"}></td>
+					 <td th:text="${vendedor.nome"}></td>
+					 
+				 </tr>
+              </tbody>
+     </table>
+    
+</body>
+</html>
+            

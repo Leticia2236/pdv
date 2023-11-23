@@ -1,5 +1,5 @@
-
 package br.com.pdv.entidades;
+
 
 import java.io.Serializable;
 
@@ -9,8 +9,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name ="loja", schema = "pdv")
-public class LojaEntidade implements Serializable {
+@Table(name ="vendas", schema = "pdv")
+public class VendasEntidade implements Serializable {
 
 	/**
 	 * 
@@ -27,3 +27,4 @@ public class LojaEntidade implements Serializable {
 	}
 	
     }
+

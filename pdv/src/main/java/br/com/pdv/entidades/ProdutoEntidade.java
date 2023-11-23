@@ -1,4 +1,3 @@
-
 package br.com.pdv.entidades;
 
 import java.io.Serializable;
@@ -9,8 +8,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name ="loja", schema = "pdv")
-public class LojaEntidade implements Serializable {
+@Table(name ="produto", schema = "pdv")
+public class ProdutoEntidade implements Serializable {
 
 	/**
 	 * 
@@ -25,5 +24,27 @@ public class LojaEntidade implements Serializable {
 	public void setId(Long id) {
 		this.id = id;
 	}
+	@Column(name = "nome")
+	private String nome;
 	
-    }
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
